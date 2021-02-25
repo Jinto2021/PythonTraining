@@ -1,3 +1,5 @@
+# update .travis.yml file to run only in Python 3.9 or multiple versionss simultaneously.
+
 print("Welcome Python programmer/ beginner!")
 
 day = 24
@@ -9,12 +11,14 @@ display_date=date_txt.format(year,day)
 print(display_date)
 
 # unpacking tuple - example
-# also using Asterix * (since there is not 5 vasriables)
+
 
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
-# Asterix feature throws error in Python 2.7
-# (green, *tropic, red) = fruits 
+# also using Asterix * (since there is not 5 vasriables)
+# (green, *tropic, red) = fruits
+
+# Asterix feature throws error in Python 2.7 (in versions upto 3.7)
 (green, tropic,tropic2,tropic3, red) = fruits 
 
 print(green)
@@ -30,7 +34,18 @@ thisdict = {
   "colors": {"red":6, "white":1, "blue":False}
 }
 
-print("Printing once:\n")
+aaa= """
+This is how the dictionary 'thisdict' was created.
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": {"red":6, "white":1, "blue":False}
+}
+"""
+
+print(aaa)
+print("\n")
 print(thisdict)
-print("Printing once:\n")
-print(thisdict)
+
