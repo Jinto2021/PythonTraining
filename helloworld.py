@@ -18,3 +18,17 @@ fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 print(green)
 print(tropic)
 print(red)
+
+#Dictionaries are ordered in python 3.7 and later.
+print("Dictionaries are ordered in python 3.7 and later.\n")
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964.03,
+  "colors": {"red":6, "white":1, "blue":False}
+}
+
+print("Printing once:\n")
+print(thisdict)
+print("Printing once:\n")
+print(thisdict)
