@@ -13,7 +13,9 @@ print(display_date)
 
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
-(green, *tropic, red) = fruits
+# Asterix feature throws error in Python 2.7
+# (green, *tropic, red) = fruits 
+(green, tropic,tropic2,tropic3, red) = fruits 
 
 print(green)
 print(tropic)
